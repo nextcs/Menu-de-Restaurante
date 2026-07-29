@@ -8,23 +8,27 @@ Cardápio digital interativo para uma loja de geladinhos, permitindo visualizar 
 
 
 🚀 Funcionalidades
-Listagem de produtos dinâmica
-Filtro por categorias
-Carrinho de compras
+Listagem de produtos dinâmica,
+Filtro por categorias,
+Carrinho de compras e
 Visualização do pedido em modal
+
 🛠️ Tecnologias
-HTML
-CSS
+HTML,
+CSS e
 JavaScript
+
 ▶️ Como usar
-Acesse o site pelo link
-Escolha os produtos
-Adicione ao carrinho
+Acesse o site pelo link,
+Escolha os produtos,
+Adicione ao carrinho e
 Veja o resumo do pedido
+
 📁 Estrutura
-index.html
-style.css
+index.html,
+style.css e
 script.js
+
 📍 Local
 
 Foz do Iguaçu - PR
