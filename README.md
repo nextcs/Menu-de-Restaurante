@@ -14,9 +14,9 @@ Cardápio digital de geladinhos com carrinho de compras.
 
 🚀 Funcionalidades
 
-Listagem de produtos
-Filtro por categorias
-Carrinho de compras
+Listagem de produtos,
+Filtro por categorias,
+Carrinho de compras e
 Modal de pedido
 
 
@@ -33,9 +33,9 @@ JavaScript
 
 ▶️ Como usar
 
-Acesse o link do site
-Navegue pelos produtos
-Adicione itens ao carrinho
+Acesse o link do site,
+Navegue pelos produtos,
+Adicione itens ao carrinho e
 Visualize o pedido
 
 
@@ -43,8 +43,8 @@ Visualize o pedido
 
 📁 Estrutura
 
-index.html
-style.css
+index.html,
+style.css e
 script.js
 
 
