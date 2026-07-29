@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cataratas de Sabores Gourmet - Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <i class="fas fa-ice-cream"></i>
+          <h1>Cataratas de <span>Sabores</span></h1>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#tradicionais">Tradicionais</a></li>
+            <li><a href="#premium">Premium</a></li>
+            <li><a href="#diet">Diet</a></li>
+            <li><a href="#especiais">Especiais</a></li>
+          </ul>
+        </nav>
+        <div class="cart-icon">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <h2>Os Melhores Geladinhos <br />de Foz do Iguaçu</h2>
+        <p>Feitos com amor e ingredientes selecionados</p>
+        <a href="#menu" class="btn-banner">Ver Cardápio</a>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <main class="menu-container" id="menu">
+      <div class="container">
+        <!-- Filtros -->
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="tradicionais">
+            Tradicionais
+          </button>
+          <button class="filter-btn" data-filter="premium">Premium</button>
+          <button class="filter-btn" data-filter="diet">Diet</button>
+          <button class="filter-btn" data-filter="especiais">Especiais</button>
+        </div>
+
+        <!-- Grid de Produtos -->
+        <div class="menu-grid" id="menuGrid">
+          <!-- Produtos serão inseridos via JavaScript -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-info">
+          <h3><i class="fas fa-ice-cream"></i> Cataratas de Sabores</h3>
+          <p>Foz do Iguaçu - Paraná</p>
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/cataratasdesaboresgourmet"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <p class="copyright">
+          &copy; 2024 Cataratas de Sabores Gourmet. Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Modal do Carrinho -->
+    <div class="cart-modal" id="cartModal">
+      <div class="cart-modal-content">
+        <span class="close-modal">&times;</span>
+        <h2><i class="fas fa-shopping-bag"></i> Seu Pedido</h2>
+        <div class="cart-items" id="cartItems">
+          <p class="empty-cart">Seu carrinho está vazio</p>
+        </div>
+        <div class="cart-total">
+          <h3>Total: <span id="cartTotal">R$ 0,00</span></h3>
+          <button class="btn-primary" id="checkoutBtn">Finalizar Pedido</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
