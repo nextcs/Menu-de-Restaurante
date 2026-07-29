@@ -24,8 +24,8 @@ Modal de pedido
 
 🛠️ Tecnologias
 
-HTML
-CSS
+HTML,
+CSS e
 JavaScript
 
 
