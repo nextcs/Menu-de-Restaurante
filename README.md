@@ -2,9 +2,15 @@
 
 Cardápio digital de geladinhos com carrinho de compras.
 
+
+
+
 🌐 Acesse o site
 
 👉 https://cataratasdesabores.netlify.app/
+
+
+
 
 🚀 Funcionalidades
 
@@ -13,11 +19,17 @@ Filtro por categorias
 Carrinho de compras
 Modal de pedido
 
+
+
+
 🛠️ Tecnologias
 
 HTML
 CSS
 JavaScript
+
+
+
 
 ▶️ Como usar
 
@@ -26,11 +38,17 @@ Navegue pelos produtos
 Adicione itens ao carrinho
 Visualize o pedido
 
+
+
+
 📁 Estrutura
 
 index.html
 style.css
 script.js
+
+
+
 
 📍 Local
 
